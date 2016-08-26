@@ -1,0 +1,80 @@
+/* fixit.css
+
+Author: Jason Wilcox
+Coding Project: "Pacman"
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    background: black;
+    width: 1200px;
+    margin: auto;
+}
+
+#row{
+    font-size: 0;
+}
+
+#brick-lightbrown{
+    background: #C4B49D;
+    display: inline-block;
+    height: 10px;
+    width: 15px;
+}
+
+#brick-darkbrown{
+    background: #9F8F76;
+    display: inline-block;
+    height: 10px;
+    width: 15px;
+}
+
+#brick-medbrown{
+    background: #B2A28B;
+    display: inline-block;
+    height: 10px;
+    width: 15px;
+}
+
+#brick-lightblue{
+    background: #5A78A4;
+    display: inline-block;
+    height: 10px;
+    width: 15px;
+}
+
+#brick-darkblue{
+    background: #37355F;
+    display: inline-block;
+    height: 10px;
+    width: 15px;
+}
+
+#brick-white{
+    background: #FDFBF4;
+    display: inline-block;
+    height: 10px;
+    width: 15px;
+}
+
+#brick-red-left{
+    background: #51180E;
+    border: 1px solid black;
+    border-right: 1px solid #51180E;
+    display: inline-block;
+    height: 8px;
+    width: 13px;
+}
+#brick-red-right{
+    background: #51180E;
+    border: 1px solid black;
+    border-left: 1px solid #51180E;
+    display: inline-block;
+    height: 8px;
+    width: 13px;
+}
