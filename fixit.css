@@ -14,10 +14,17 @@ Coding Project: "Pacman"
     background: black;
     width: 1200px;
     margin: auto;
+    position: relative;
+}
+
+#building{
+    position: absolute;
+    z-index: 0;
 }
 
 #row{
     font-size: 0;
+
 }
 
 #brick-lightbrown{
@@ -77,4 +84,14 @@ Coding Project: "Pacman"
     display: inline-block;
     height: 8px;
     width: 13px;
+}
+
+.felix{
+    background: url('felix.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: auto;
+    position: absolute;
+    z-index: 99 !important;
 }
